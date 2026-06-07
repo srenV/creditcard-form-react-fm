@@ -4,6 +4,15 @@ Eine React-Umsetzung der [Frontend Mentor Challenge "Interactive Card Details Fo
 
 Das Projekt bildet ein Kreditkartenformular mit Live-Vorschau der Karte, Formularvalidierung und einer interaktiven Kartenansicht mit leichter 3D-Tilt-Animation ab.
 
+## Links
+
+- Live site: [creditcard-form-react-fm.vercel.app](https://creditcard-form-react-fm.vercel.app/)
+- GitHub: [srenV/creditcard-form-react-fm](https://github.com/srenV/creditcard-form-react-fm)
+
+## Preview
+
+![Credit card form screenshot](src/assets/screenshot.png)
+
 ## Features
 
 - Live-Preview von Vorder- und Rückseite der Kreditkarte
