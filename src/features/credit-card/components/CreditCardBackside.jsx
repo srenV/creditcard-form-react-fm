@@ -33,7 +33,7 @@ const CreditCardBackside = () => {
 
   return (
     <div
-      className="rounded-lg shadow-2xl  bg-gray-300  lg:w-4/10 sm:w-6/10 w-8/10  aspect-video transition-transform duration-300 ease-out select-none lg:translate-x-30 translate-x-5 -translate-y-25 sm:-translate-y-35 xl:translate-y-0
+      className="rounded-lg shadow-2xl  bg-gray-300   sm:w-[60%] w-[80%]  aspect-video transition-transform duration-300 ease-out select-none lg:translate-x-30 translate-x-5 -translate-y-25 sm:-translate-y-35 xl:translate-y-0
       pt-5 gap-5 flex flex-col text-shadow-sm text-shadow-gray-900 font-mono"
       ref={cardRef}
       onMouseMove={handleMouseMove}

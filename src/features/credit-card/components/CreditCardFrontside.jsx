@@ -34,7 +34,7 @@ const CreditCardFrontside = () => {
 
   return (
     <div
-      className="tilt-card rounded-2xl shadow-sm hover:shadow-lg  bg-gray-300 z-10 lg:w-4/10 w-8/10 aspect-video transition-transform duration-100 ease-out select-none
+      className="tilt-card rounded-2xl shadow-sm hover:shadow-lg  bg-gray-300 z-10   sm:w-[60%] w-[80%] aspect-video transition-transform duration-100 ease-out select-none
       p-6 text-white flex-col flex justify-between absolute lg:relative -translate-x-5 lg:translate-0
       bg-[radial-gradient(at_top_left,#bf5af2_0%,transparent_60%),radial-gradient(at_top_right,#ff453a_0%,transparent_50%),radial-gradient(at_bottom_left,#5e5ce6_0%,transparent_70%),radial-gradient(at_bottom_right,#ff9f0a_0%,transparent_60%),linear-gradient(to_bottom_right,#a855f7,#ec4899)]
        text-shadow-sm text-shadow-gray-900 font-mono"
@@ -47,7 +47,7 @@ const CreditCardFrontside = () => {
       }}
       aria-label="Credit card preview"
     >
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-4  items-center">
         <div className="rounded-full bg-white h-12 w-12  text-black flex items-center justify-center">
           {isSubmitted && (
             <a
@@ -74,8 +74,8 @@ const CreditCardFrontside = () => {
           )}
         </div>
       </div>
-      <div>
-        <div className="text-white 3xl:text-3xl  text-xl justify-center tracking-wider flex">
+      <div className="flex flex-col 2xl:gap-10 gap-5">
+        <div className="text-white 2xl:text-5xl sm:text-2xl text-xl justify-center tracking-wider flex">
           {formData?.cardNumber || "0000 0000 0000 0000"}
         </div>
         <div className="flex flex-row justify-between">
